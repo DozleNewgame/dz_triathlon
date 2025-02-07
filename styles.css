@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+content {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 1080px;
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative; /* 親要素を基準に */
+}
+
+p{
+	text-align: center;
+	margin-top: 100px;
+	font-weight: 700;
+	font-size: 25px;
+	background-color:rgba(0,0,0,0.70);
+}
+
+.tetsusen {
+	display: none; /* 初期状態で非表示 */
+	position: absolute; /* 親要素を基準に */
+    top: 4px; 
+    right: 6px; 
+    width: 147px; 
+    height: 324px; 
+    background-image: url('img/fin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hot{
+	display: none; /* 初期状態で非表示 */
+    position: absolute; /* 親要素を基準に */
+    top: 335px; 
+    right: 6px; 
+    width: 147px; 
+    height: 324px;  
+    background-image: url('img/fin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enderdragon{
+	display: none; /* 初期状態で非表示 */
+    position: absolute; /* 親要素を基準に */
+    top: 663px; 
+    right: 6px; 
+	width: 147px; 
+    height: 324px; 
+    background-image: url('img/fin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.try{
+    position: absolute; /* 親要素を基準に */
+    top: 996px; 
+    right: 0px; 
+    width: 736px; 
+    height: 76px; 
+}
