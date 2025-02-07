@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
+overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
