@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
